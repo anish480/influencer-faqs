@@ -1,0 +1,308 @@
+[
+  {
+    "id": "A1", "section": "Orientation", "depth": "L0",
+    "q": "Who's on the Ads team and what do they own?",
+    "a": "<p>Sunaina leads. <strong>Sahil</strong> owns Curly men, Wavy men, Scalp men. <strong>Saanya</strong> owns Wavy women, Curly women, Dry Shampoo. <strong>Albia</strong> owns HWS, Scalp women, HA. <strong>Sunaina</strong> personally holds OTF, Mask, HPS, Oil.</p>",
+    "workstream": ["rituals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": []
+  },
+  {
+    "id": "A2", "section": "Orientation", "depth": "L0",
+    "q": "Who do I talk to outside the ads team?",
+    "a": "<p><strong>Founders Nikita & Anmol</strong> for creative direction. <strong>Rupika</strong> is the strategy/copy lead — her review carries the same weight as a founder's.</p><p><strong>Copy team:</strong> Tania, Ryan, Nainan — scripts and captions.<br><strong>Design team:</strong> Aishleen, Sehej, Mehar, Ananya, Ayushi, Sucharita, Ruchika — storyboards and edits.<br><strong>Marketing:</strong> Twinkle, Cherishi, Harsh, Keshav — influencer-led campaigns and references.<br><strong>Ops:</strong> Manisha — dispatch.<br><strong>Finance:</strong> Tanuja — payments.</p>",
+    "workstream": ["rituals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": []
+  },
+  {
+    "id": "A3", "section": "Orientation", "depth": "L1",
+    "q": "What are our daily and weekly rituals?",
+    "a": "<p>11 AM standup with copy + design + ads. Weekly references call. Daily updates on email if calls don't happen. WFH must be applied for on Greythr <strong>same day</strong>.</p>",
+    "workstream": ["rituals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["greythr"]
+  },
+  {
+    "id": "A4", "section": "Orientation", "depth": "L0",
+    "q": "What products am I selling?",
+    "a": "<p>OTF, HWS, HPS, HA, DDHM, DS, Mask, Oil; plus the Scalp / Wavy / Curly ranges, split by men and women.</p>",
+    "workstream": ["rituals"], "portfolio": ["cross","otf","hws","hps","ha","ds","mask","oil","ddhm"], "creative": [], "archetype": [], "tools": []
+  },
+  {
+    "id": "A5", "section": "Orientation", "depth": "L1",
+    "q": "What tools do I live in?",
+    "a": "<p>Ads tracker, Creative master, Dispatch sheet, Ads pipeline, DG frontend, Airtable. Sahil-built <code>moxie-calculator</code> helps with negotiation maths; <code>moxie-agreements</code> generates the contract. Greythr for HR/WFH. <strong>2FA mandatory on email.</strong></p>",
+    "workstream": ["rituals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["tracker","creative_master","dispatch_sheet","pipeline","dg","airtable","calculator","agreements_gen","greythr","email"]
+  },
+  {
+    "id": "B1", "section": "Sourcing", "depth": "L2",
+    "q": "What does a 'good' creator look like for Moxie?",
+    "a": "<p>Four parameters articulated for the AD range: <strong>awareness, credibility, articulation, and being on-brand for Moxie</strong>. Mix beauty-credible voices (GBF, indianskinblog-archetype) with on-brand cool personas. Avoid kiddy-looking; avoid creators who can't sound credible on hi-tech formulations.</p>",
+    "workstream": ["sourcing"], "portfolio": ["cross"], "creative": ["influencer","ugc"], "archetype": ["credible","on_brand"], "tools": []
+  },
+  {
+    "id": "B2", "section": "Sourcing", "depth": "L1",
+    "q": "Where do I find creators?",
+    "a": "<p>Explore page mining is the default — Sunaina has explicitly asked the team to source 4–5 credible beauty creators from their explore pages. Add to the pipeline with portfolio assignment + IG handle in the group description so we don't lose track.</p>",
+    "workstream": ["sourcing"], "portfolio": ["cross"], "creative": ["influencer","ugc"], "archetype": [], "tools": ["pipeline"]
+  },
+  {
+    "id": "B3", "section": "Sourcing", "depth": "L2",
+    "q": "How do I tag a creator's archetype?",
+    "a": "<p>By <strong>delivery format</strong> (verbal, non-verbal, VO-led), by <strong>integration style</strong> (visual integration vs personal journey vs problem-solution), and by <strong>tier</strong> (>100k almost always means agency). UGC-only is its own bucket.</p>",
+    "workstream": ["sourcing"], "portfolio": ["cross"], "creative": ["influencer","ugc"], "archetype": ["verbal","non_verbal","vo","visual","journey","problem_sol","big","mid","emerging"], "tools": []
+  },
+  {
+    "id": "B4", "section": "Sourcing", "depth": "L2",
+    "q": "Are there creators or managers we avoid?",
+    "a": "<p>Yes — the avoid list changes over time. <strong>Ask Sunaina for the current list</strong> rather than relying on this doc. As a general note: past issues with agencies posting unauthorised content mean we are more careful with agencies going forward.</p>",
+    "workstream": ["sourcing"], "portfolio": ["cross"], "creative": ["influencer"], "archetype": [], "tools": []
+  },
+  {
+    "id": "B5", "section": "Sourcing", "depth": "L2",
+    "q": "Should I prefer agencies or going direct?",
+    "a": "<p><strong>Direct is preferred</strong> where possible. Agencies layer cost and have caused unauthorised-post incidents. But for >100k creators, agencies are usually unavoidable.</p>",
+    "workstream": ["sourcing","negotiation"], "portfolio": ["cross"], "creative": ["influencer"], "archetype": ["big"], "tools": []
+  },
+  {
+    "id": "C1", "section": "Negotiation", "depth": "L1",
+    "q": "What's a 'good' rate for a creator?",
+    "a": "<p>Anchor on <strong>CPV (cost per view)</strong>. CPV must be <strong>below 1</strong> for the collab to make sense — that's the rule Sahil articulated. Pull the creator's average views and back-solve the cap.</p>",
+    "workstream": ["negotiation"], "portfolio": ["cross"], "creative": ["influencer","ugc"], "archetype": [], "tools": ["calculator"]
+  },
+  {
+    "id": "C2", "section": "Negotiation", "depth": "L1",
+    "q": "What's the ceiling for emerging creators?",
+    "a": "<p>~₹20k for emerging creators is the soft cap referenced in conversations. Push higher only for proven performers.</p>",
+    "workstream": ["negotiation"], "portfolio": ["cross"], "creative": ["ugc"], "archetype": ["emerging","mid"], "tools": ["calculator"]
+  },
+  {
+    "id": "C3", "section": "Negotiation", "depth": "L2",
+    "q": "Always ask for which add-ons?",
+    "a": "<p>Always ask for <strong>perpetuity ad rights rates</strong> in addition to base. Default ad rights are 1 month (extendable). Sunaina's quote: <em class=\"quote\">\"ad rights always get perpetuity rates — if 1 month works well we might as well run it longer.\"</em></p>",
+    "workstream": ["negotiation","agreements"], "portfolio": ["cross"], "creative": ["influencer","ugc"], "archetype": [], "tools": []
+  },
+  {
+    "id": "C4", "section": "Negotiation", "depth": "L2",
+    "q": "What does a long-term lock-in look like?",
+    "a": "<p>Example template: <strong>6 UGC ads in 6 months at ₹4,500 each, including 2 months of ad rights</strong>. Useful for high-fit emerging creators where you want repeat output cheaply.</p>",
+    "workstream": ["negotiation","agreements"], "portfolio": ["cross"], "creative": ["ugc"], "archetype": ["emerging","mid"], "tools": []
+  },
+  {
+    "id": "C5", "section": "Negotiation", "depth": "L1",
+    "q": "How do I use the moxie-calculator?",
+    "a": "<p>Sahil built it. He has a deck / walkthrough ready. <strong>Sit with him before your first hard negotiation</strong> — he has explicitly offered.</p>",
+    "workstream": ["negotiation"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["calculator"]
+  },
+  {
+    "id": "D1", "section": "Agreements", "depth": "L1",
+    "q": "What's the order of operations to onboard a creator?",
+    "a": "<ol><li>Negotiate.</li><li>Send confirmation email.</li><li>Get the agreement signed.</li><li><strong>Only then start work.</strong></li></ol><p>Sunaina: <em class=\"quote\">\"boys, pls make sure they sign the agreement and then start working on their deliverables.\"</em></p>",
+    "workstream": ["agreements"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["agreements_gen","email"]
+  },
+  {
+    "id": "D2", "section": "Agreements", "depth": "L1",
+    "q": "What does the confirmation email need to include?",
+    "a": "<ul><li>Reference to the <strong>standard Content Creation and Collaboration Agreement</strong> (attached): <em class=\"quote\">\"This collaboration is subject to Moxie Beauty's standard Content Creation and Collaboration Agreement, a copy of which is attached.\"</em></li><li>The line <em class=\"quote\">\"10% TDS will be deducted as per government mandate\"</em> under the 100% payment-on-deliverable clause.</li><li>Ask the creator to <strong>reply-all with acknowledgement</strong> so creator@moxiebeauty.in is triggered.</li><li><strong>CC accounts@moxiebeauty.in.</strong></li></ul>",
+    "workstream": ["agreements"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["email"]
+  },
+  {
+    "id": "D3", "section": "Agreements", "depth": "L2",
+    "q": "What if a creator pushes back on signing?",
+    "a": "<p>Friction with signing is real — Sahil flagged this. Ongoing discussion: can confirmation-of-email imply confirmation-of-agreement? Pending legal input. <strong>For now, don't start work until both email and agreement are in.</strong></p>",
+    "workstream": ["agreements"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["agreements_gen","email"]
+  },
+  {
+    "id": "D4", "section": "Agreements", "depth": "L0",
+    "q": "What format is the agreement in?",
+    "a": "<p>PDF only. Generated via the <code>moxie-agreements</code> tool.</p>",
+    "workstream": ["agreements"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["agreements_gen"]
+  },
+  {
+    "id": "E1", "section": "Dispatch", "depth": "L1",
+    "q": "How do I get product to a creator?",
+    "a": "<p>Add them to the dispatch sheet with the right SKU + variant — e.g., <em class=\"quote\">\"HWS with brush\"</em>, <em class=\"quote\">\"DS with brush\"</em>. <strong>Manisha runs ops.</strong></p>",
+    "workstream": ["dispatch"], "portfolio": ["cross","hws","ds"], "creative": [], "archetype": [], "tools": ["dispatch_sheet"]
+  },
+  {
+    "id": "E2", "section": "Dispatch", "depth": "L2",
+    "q": "The dispatch isn't triggering — why?",
+    "a": "<p><strong>Known bug:</strong> copy-pasting an address doesn't trigger the move from sourcing → dispatch. The cell needs to register an <em>edit</em>. Add a <code>.</code> and erase it, or add a <code>:)</code> and remove. Workaround documented by Sahil in April '26.</p>",
+    "workstream": ["dispatch"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["dispatch_sheet"]
+  },
+  {
+    "id": "E3", "section": "Dispatch", "depth": "L2",
+    "q": "Where does the pipeline owner show up for ops?",
+    "a": "<p>Sunaina is wiring the sourcing-tab pipeline owner into dispatch so Manisha knows who to ping for a specific delivery. If yours isn't visible, add it manually for now.</p>",
+    "workstream": ["dispatch"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["dispatch_sheet","pipeline"]
+  },
+  {
+    "id": "F1", "section": "Briefing", "depth": "L1",
+    "q": "What's the order of creative production?",
+    "a": "<p><strong>Copy → storyboard → design → shoot.</strong> Copy team writes script first; design picks it up; storyboard goes to creator. Standup at 11 AM aligns the pipeline daily.</p>",
+    "workstream": ["briefing","storyboarding"], "portfolio": ["cross"], "creative": ["video","static"], "archetype": [], "tools": []
+  },
+  {
+    "id": "F2", "section": "Briefing", "depth": "L0",
+    "q": "Who writes the script?",
+    "a": "<p>Copy team — <strong>Tania, Ryan, Nainan</strong>. Only copy team has commenter access to scripts; tag the strat handle and mention <strong>Nikita or Rupika</strong> to review.</p>",
+    "workstream": ["briefing"], "portfolio": ["cross"], "creative": ["video","static"], "archetype": [], "tools": []
+  },
+  {
+    "id": "F3", "section": "Briefing", "depth": "L1",
+    "q": "What does a storyboard need before it goes to a creator?",
+    "a": "<p>Approved script + frame references + lighting/setting reference + hook. <strong>Always send a test-shot ask before a full shoot.</strong></p>",
+    "workstream": ["storyboarding","briefing"], "portfolio": ["cross"], "creative": ["video"], "archetype": [], "tools": []
+  },
+  {
+    "id": "F4", "section": "Briefing", "depth": "L1",
+    "q": "Do we always need a test shot?",
+    "a": "<p><strong>Yes</strong> — even when a creator is travelling and pushing for products. Test shot first for lighting, framing, hairstyle. Repeated rule across the chat: <em class=\"quote\">\"told her to give us a test shot before anything is shot.\"</em></p>",
+    "workstream": ["shoot","storyboarding"], "portfolio": ["cross"], "creative": ["video","ugc","influencer"], "archetype": [], "tools": []
+  },
+  {
+    "id": "F5", "section": "Briefing", "depth": "L1",
+    "q": "What 'high resolution' actually means",
+    "a": "<p>Design team's recurring complaint: creators say <em class=\"quote\">\"high resolution\"</em> and send WhatsApp-quality video. <strong>Insist on raw / cloud upload.</strong> Reshoots are common when this is missed.</p>",
+    "workstream": ["shoot"], "portfolio": ["cross"], "creative": ["video","ugc","influencer"], "archetype": [], "tools": []
+  },
+  {
+    "id": "G1", "section": "Nikita's lens", "depth": "L3",
+    "q": "What does Nikita reject on sight?",
+    "a": "<p><em class=\"quote\">\"Salesy.\" \"Kiddy.\" \"Not credible.\" \"Not landing.\" \"Not self-explanatory.\" \"Not on-brand.\" \"Lacks Moxie-ness.\"</em></p><p>If a video reads as any of those, it's a no.</p>",
+    "workstream": ["approvals","post"], "portfolio": ["cross"], "creative": ["video","static","influencer","ugc"], "archetype": [], "tools": []
+  },
+  {
+    "id": "G2", "section": "Nikita's lens", "depth": "L3",
+    "q": "What does Nikita value in a video?",
+    "a": "<p>Hook clarity (<em class=\"quote\">\"hook is not clear story-wise\"</em>), strong opening shot (<em class=\"quote\">\"zoom in more, engage better\"</em>), real hair / real results in B/A (<em class=\"quote\">\"we should use only real hair and real results\"</em>), no abrupt edits, transitions that feel earned, lighting that doesn't make hair look <em class=\"quote\">\"icky,\"</em> product-application as the strongest hook for OTF.</p>",
+    "workstream": ["approvals","post"], "portfolio": ["cross","otf"], "creative": ["video","ba","influencer"], "archetype": [], "tools": []
+  },
+  {
+    "id": "G3", "section": "Nikita's lens", "depth": "L3",
+    "q": "Nikita's copy lens",
+    "a": "<p>Self-explanatory ≥ clever. She rejected <em class=\"quote\">\"Weightless\"</em> because <em class=\"quote\">\"it isn't self-explanatory — even on Nykaa.\"</em> Likes simple, contextual lines. <strong>\"Range\" not \"trio.\"</strong> Avoid wording that implies daily-use if the product isn't daily-use. Sentence-case tickers. Don't repeat the main copy in the ticker unnecessarily.</p>",
+    "workstream": ["approvals","briefing"], "portfolio": ["cross"], "creative": ["static","video"], "archetype": [], "tools": []
+  },
+  {
+    "id": "G4", "section": "Nikita's lens", "depth": "L3",
+    "q": "Nikita's visual lens",
+    "a": "<p>On-brand <strong>subtle neon</strong>. Black logo not over-covered. <strong>Hierarchy of information must be intentional.</strong> Old-fashioned PNGs okay if they help concept. Conceptual clarity beats clever visual — <em class=\"quote\">\"not clear why propane and butane are relevant.\"</em></p>",
+    "workstream": ["approvals"], "portfolio": ["cross"], "creative": ["static","render3d"], "archetype": [], "tools": []
+  },
+  {
+    "id": "G5", "section": "Nikita's lens", "depth": "L3",
+    "q": "Nikita on testimonials and proof",
+    "a": "<p><em class=\"quote\">\"Too many product shots with clever copy. We need before-afters, testimonials, social proof, etc to complete the story.\"</em> Translation: balance the asset mix.</p>",
+    "workstream": ["approvals","performance"], "portfolio": ["cross"], "creative": ["ba","static","video"], "archetype": ["credible"], "tools": []
+  },
+  {
+    "id": "H1", "section": "Anmol's lens", "depth": "L3",
+    "q": "What does Anmol look at first?",
+    "a": "<p>Storyline coherence and Instagram-grid feel. Asks <em class=\"quote\">\"does this need copy on the video to set context instantly? POV: xyz.\"</em> Wants snappier edits. Looks at filler shots and whether they're <strong>not outright salesy</strong>.</p>",
+    "workstream": ["approvals","post"], "portfolio": ["cross"], "creative": ["video","influencer"], "archetype": [], "tools": []
+  },
+  {
+    "id": "H2", "section": "Anmol's lens", "depth": "L3",
+    "q": "Anmol's hierarchy-of-information rule",
+    "a": "<p><em class=\"quote\">\"Let's think on this from what is the hierarchy of information — too many things are grabbing attention at the same time.\"</em></p><p>If you can't articulate which element should win the user's eye in 1 second, the asset isn't done.</p>",
+    "workstream": ["approvals"], "portfolio": ["cross"], "creative": ["static","render3d"], "archetype": [], "tools": []
+  },
+  {
+    "id": "H3", "section": "Anmol's lens", "depth": "L3",
+    "q": "Anmol on framing",
+    "a": "<p><em class=\"quote\">\"This is not framed properly.\"</em> <strong>Composition is non-negotiable</strong> — reshoots happen for framing alone.</p>",
+    "workstream": ["shoot","approvals"], "portfolio": ["cross"], "creative": ["video","influencer","ugc"], "archetype": [], "tools": []
+  },
+  {
+    "id": "I1", "section": "Rupika's lens", "depth": "L3",
+    "q": "What does Rupika check first on copy?",
+    "a": "<p>Claim consistency — across the asset and across the brand. Examples: <em class=\"quote\">\"we're saying 3 washes everywhere\"</em> (lock the claim once, use it everywhere) and the fix <em class=\"quote\">\"*Instrumental results after 3 uses vs. non-conditioning shampoo and conditioner\"</em> — exact phrasing and footnote discipline.</p><p>If two claims feel like the same thing to a layperson (<em class=\"quote\">\"stronger hair\"</em> vs <em class=\"quote\">\"reduced breakage\"</em>), they probably need re-spacing on the asset.</p>",
+    "workstream": ["approvals","briefing"], "portfolio": ["cross","hws"], "creative": ["static","video"], "archetype": [], "tools": []
+  },
+  {
+    "id": "I2", "section": "Rupika's lens", "depth": "L3",
+    "q": "Rupika's concept-coherence rule",
+    "a": "<p><em class=\"quote\">\"The POV and the end slate aren't speaking to each other and aren't speaking to what she's shot.\"</em></p><p>Translation: opener, body, and close must tell <strong>one story</strong>. If they don't, no edit polish will save it.</p>",
+    "workstream": ["approvals","post"], "portfolio": ["cross"], "creative": ["video","influencer"], "archetype": [], "tools": []
+  },
+  {
+    "id": "I3", "section": "Rupika's lens", "depth": "L3",
+    "q": "Rupika on legitimacy — how it reads",
+    "a": "<p>She watches whether claims <strong>look</strong> legit, not just whether they're true. Examples: bringing back the <code>HydroRepair Complex</code> unit on supers because <em class=\"quote\">\"it starts making it look more legit,\"</em> and asking whether the unit in neon is getting lost vs the claim itself.</p><p>Asset legitimacy = visible scientific scaffolding + readable hierarchy.</p>",
+    "workstream": ["approvals"], "portfolio": ["cross","hws"], "creative": ["static","video"], "archetype": [], "tools": []
+  },
+  {
+    "id": "I4", "section": "Rupika's lens", "depth": "L3",
+    "q": "Rupika on tightness",
+    "a": "<p>Recurring note: <em class=\"quote\">\"can we make this a little bit more tighter?\"</em> Length is suspicious until proven necessary. Cut intros, dedupe lines (she'll spot <em class=\"quote\">\"haircare repeated twice at 6–7 seconds\"</em> instantly), and lose any frame that doesn't earn its place.</p>",
+    "workstream": ["post","approvals"], "portfolio": ["cross"], "creative": ["video","influencer"], "archetype": [], "tools": []
+  },
+  {
+    "id": "I5", "section": "Rupika's lens", "depth": "L3",
+    "q": "When does Rupika loop in Nikita?",
+    "a": "<p>Rupika makes the strategy/copy call first. If something is borderline, she'll explicitly say <em class=\"quote\">\"let me check w Nikita\"</em> and come back. <strong>If you push something to Nikita without Rupika reviewing first, you've broken the queue.</strong></p>",
+    "workstream": ["approvals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": []
+  },
+  {
+    "id": "J1", "section": "Approvals", "depth": "L1",
+    "q": "Who approves what?",
+    "a": "<p>Copy team writes; <strong>Rupika reviews</strong>; <strong>Nikita and Anmol approve</strong> via comments on the doc and the cut. Design final cuts go to Nikita and Anmol.</p><p>Edit feedback comes back fast and granular — <em class=\"quote\">\"can we bring the transition sooner at 'or break'\"</em> — expect lots of small iterations.</p>",
+    "workstream": ["approvals"], "portfolio": ["cross"], "creative": ["video","static"], "archetype": [], "tools": []
+  },
+  {
+    "id": "J2", "section": "Approvals", "depth": "L1",
+    "q": "When something is 'live,' what should I do?",
+    "a": "<p>Each time design + ads says something is live, <strong>check if it's your creator</strong> and send the calendar invite accordingly. Sunaina's standing instruction.</p>",
+    "workstream": ["approvals","rituals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["pipeline"]
+  },
+  {
+    "id": "J3", "section": "Approvals", "depth": "L1",
+    "q": "What's a normal shoot timeline?",
+    "a": "<p><strong>5–7 days</strong> from confirmation to footage in. Reshoots add another cycle. Track on the ads pipeline.</p>",
+    "workstream": ["shoot"], "portfolio": ["cross"], "creative": ["video","ugc","influencer"], "archetype": [], "tools": ["pipeline"]
+  },
+  {
+    "id": "K1", "section": "Payments", "depth": "L1",
+    "q": "How do creators get paid?",
+    "a": "<p>Invoice into the system; <strong>Tanuja in finance</strong> makes payments. <strong>10% TDS</strong> is deducted. Invoices have a form now (April '26 onwards).</p>",
+    "workstream": ["agreements","negotiation"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["email"]
+  },
+  {
+    "id": "K2", "section": "Payments", "depth": "L2",
+    "q": "Half-payment and extension scenarios",
+    "a": "<p>For half-payment cases: <strong>do a fresh entry and write \"pay remaining half.\"</strong> For 1-month ad rights extensions: ask for a fresh invoice + send a calendar invite for the extension window.</p>",
+    "workstream": ["agreements","negotiation"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["email"]
+  },
+  {
+    "id": "L1", "section": "Performance", "depth": "L3",
+    "q": "What works and what we shouldn't experiment with",
+    "a": "<p>Sunaina's call from Feb '26: <em class=\"quote\">\"Let's not experiment, we know what works: videos + before-and-after GIFs.\"</em></p>",
+    "workstream": ["performance","approvals"], "portfolio": ["cross"], "creative": ["video","ba","gif"], "archetype": [], "tools": []
+  },
+  {
+    "id": "L2", "section": "Performance", "depth": "L3",
+    "q": "How do we read engagement signals?",
+    "a": "<p>Look at <strong>who</strong> is commenting and liking. Nikita's observation: <em class=\"quote\">\"Boys' comments are so different — nearly all the likes are also boys. Different humour. Like sometimes girls will say 'she kind of looks like the actor who plays Fleabag.' Guys will just comment 'Fleabag.'\"</em></p><p>Useful gendered read on whether the asset is landing with the intended audience.</p>",
+    "workstream": ["performance"], "portfolio": ["cross"], "creative": ["video","static"], "archetype": [], "tools": []
+  },
+  {
+    "id": "L3", "section": "Performance", "depth": "L3",
+    "q": "How do I learn the leadership lens fastest?",
+    "a": "<p>Read the Everything Ads thread end-to-end with the search terms: <code>salesy</code>, <code>kiddy</code>, <code>credible</code>, <code>hook</code>, <code>self-explanatory</code>, <code>on-brand</code>, <code>tighter</code>, <code>legit</code>. That's the compressed version of the taste.</p>",
+    "workstream": ["performance","approvals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": []
+  },
+  {
+    "id": "M1", "section": "Onboarding", "depth": "L0",
+    "q": "What does my first week look like?",
+    "a": "<ol><li>Get laptop from Tanuja.</li><li>2FA on email.</li><li>Greythr setup for WFH.</li><li>Sit in on standup.</li><li>Get assigned a portfolio.</li><li>Read the agreement.</li><li>Sit with Sahil for a negotiation walkthrough.</li></ol>",
+    "workstream": ["rituals"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": ["greythr","email","calculator","agreements_gen"]
+  },
+  {
+    "id": "M2", "section": "Onboarding", "depth": "L1",
+    "q": "Things I should never do in my first month",
+    "a": "<ul><li>Send a confirmation email without the agreement clause.</li><li>Start work before the agreement is signed.</li><li>Use a creator on the avoid list.</li><li>Ship product without putting them on the dispatch sheet.</li><li><strong>Skip Rupika's review and push something straight to Nikita.</strong></li><li>Approve a creative without Nikita / Anmol sign-off if it's going on a paid channel.</li></ul>",
+    "workstream": ["rituals","approvals","agreements","dispatch"], "portfolio": ["cross"], "creative": [], "archetype": [], "tools": []
+  },
+  {
+    "id": "M3", "section": "Onboarding", "depth": "L2",
+    "q": "The single quickest way to embarrass yourself",
+    "a": "<p>Send leadership a creative that's <em class=\"quote\">\"salesy,\" \"kiddy,\"</em> or <em class=\"quote\">\"not self-explanatory.\"</em> Read G1 first.</p>",
+    "workstream": ["approvals"], "portfolio": ["cross"], "creative": ["video","static"], "archetype": [], "tools": []
+  }
+]
